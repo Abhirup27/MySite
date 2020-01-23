@@ -1,0 +1,186 @@
+body{
+  text-align: center;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+  margin-bottom: 0;
+
+}
+
+h1{
+display: inline-block;
+margin-top: 150px;
+  color: white;
+  font-family: Indie Flower;
+  font-size: 3em;
+
+}
+h2{
+  color: white;
+  font-family: Indie Flower;
+}
+h3{
+  color: white;
+  font-family: Indie Flower;
+}
+p{
+  font-size: 20px;
+  color: white;
+  margin:auto;
+  font-family: Merriweather;
+}
+.top{
+  background-color:#bbe1fa ;
+position: relative;
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+
+
+}
+.middle{
+  background-color: #0f4c75;
+
+
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top: 0px;
+
+}
+
+img{
+ width:230px;
+ height:230px;
+  border-radius: 155px;
+}
+
+.botimg{
+  position : absolute;
+  margin: auto;
+  width: 250px;
+  height: 70px;
+}
+.topimg{
+  position:absolute;
+margin: 100px auto auto 300px;
+width: 250px;
+height: 70px;
+}
+.mount{
+  display: inline-block;
+  position: relative;
+  margin-top:300px;
+  width: 800px;
+  height: 500px;
+  margin-bottom:0;
+
+}
+.skills{
+  background-color: #0f4c75;
+}
+.bottom{
+  margin-top: 20px;
+  background-color:#ffffff;
+}
+.contact-me{
+  background-color: #0f4c75;
+}
+.largeimg{
+
+  width:400px;
+  height:400px;
+  border-radius: 455px;
+}
+.linku{
+  color: #1b262c;
+}
+.btn{
+  border: 70px;
+  border-width: medium;
+  border-radius: 7px;
+  border-style:solid;
+  border-color: #1b262c;
+  background-color: #0f4c75;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Indie Flower;
+margin-bottom: 20px;
+margin-top: 20px;
+transition: all 0.8s;
+}
+.btn:hover{
+  border: 70px;
+  border-width: medium;
+  border-radius: 7px;
+  border-style:solid;
+  border-color: #1b262c;
+  background-color: #1b262c;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Indie Flower;
+  transition: all 0.8s;
+}
+.smallimg{
+  width:50px;
+  height:50px;
+  border-radius: 355px;
+}
+.smallimg2{
+  width:50px;
+  height:50px;
+
+}
+.bird1{
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 70px;
+
+  top: 500px;
+  animation-name: flying1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+.bird2{
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 50px;
+
+  top: 600px;
+  animation-name: flying2;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+@keyframes flying1 {
+  from{  left:0%;}
+  to{
+      left:100%;
+  }
+
+}
+@keyframes flying2 {
+  from{  left:0%;}
+  to{
+      left:100%;
+  }
+
+}
+
+hr{
+  border-color: #1b262c;
+  border-top-style: dotted;
+  border-bottom-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  border-width: 7px;
+  width: 7%;
+  height: 0px;
+
+}
