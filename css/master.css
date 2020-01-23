@@ -161,14 +161,14 @@ transition: all 0.8s;
 @keyframes flying1 {
   from{  left:0%;}
   to{
-      left:100%;
+      left:97.7%;
   }
 
 }
 @keyframes flying2 {
   from{  left:0%;}
   to{
-      left:100%;
+      left:98%;
   }
 
 }
