@@ -9,25 +9,34 @@ body{
 
 h1{
 display: inline-block;
-margin-top: 150px;
-  color: white;
+margin: 150px 0 0 0;
+  color: #0f4c75;
   font-family: Indie Flower;
-  font-size: 3em;
+  font-size: 5.625rem;
+  transition: all 0.8s;
+  line-height: 2;
 
 }
 h2{
+
+  margin-top: 0;
+  font-size: 2.5rem;
   color: white;
   font-family: Indie Flower;
+  transition: all 0.8s;
+  font-weight: normal;
 }
 h3{
   color: white;
   font-family: Indie Flower;
+  font-size: 2.5rem;
 }
 p{
-  font-size: 20px;
+  font-size: 1.5rem;
   color: white;
   margin:auto;
   font-family: Merriweather;
+
 }
 .top{
   background-color:#bbe1fa ;
@@ -52,6 +61,7 @@ img{
  width:230px;
  height:230px;
   border-radius: 155px;
+  transition: all 0.8s;
 }
 
 .botimg{
@@ -59,12 +69,14 @@ img{
   margin: auto;
   width: 250px;
   height: 70px;
+  transition: all 0.8s;
 }
 .topimg{
   position:absolute;
 margin: 100px auto auto 300px;
 width: 250px;
 height: 70px;
+transition: all 0.8s;
 }
 .mount{
   display: inline-block;
@@ -73,13 +85,15 @@ height: 70px;
   width: 800px;
   height: 500px;
   margin-bottom:0;
+  border-radius: 0;
+  transition: all 0.8s;
 
 }
 .skills{
   background-color: #0f4c75;
 }
 .bottom{
-  margin-top: 20px;
+  margin-top: 60px;
   background-color:#ffffff;
 }
 .contact-me{
@@ -87,53 +101,57 @@ height: 70px;
 }
 .largeimg{
 
-  width:400px;
-  height:400px;
+  width:1;
+  height:1;
   border-radius: 455px;
+float: left;
+margin-right: 50px;
+}
+.largeimg2{
+
+  width:1;
+  height:1;
+  border-radius: 455px;
+float: right;
+margin-left: 50px;
 }
 .linku{
-  color: #1b262c;
+  color: #bbe1fa;
 }
 .btn{
-  border: 70px;
-  border-width: medium;
-  border-radius: 7px;
-  border-style:solid;
-  border-color: #1b262c;
-  background-color: #0f4c75;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: Indie Flower;
-margin-bottom: 20px;
-margin-top: 20px;
+  margin: 50px;
+  box-shadow: 0px 10px 14px -7px #1b262c;
+	background:linear-gradient(to bottom, #bbe1fa 5%, #0f4c75 100%);
+	background-color:#bbe1fa;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Indie Flower;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1b262c;
 transition: all 0.8s;
 }
 .btn:hover{
-  border: 70px;
-  border-width: medium;
-  border-radius: 7px;
-  border-style:solid;
-  border-color: #1b262c;
-  background-color: #1b262c;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: Indie Flower;
+  background:linear-gradient(to bottom, #424242 5%, #0f4c75 100%);
+  	background-color:#424242;
   transition: all 0.8s;
 }
+.bt:active {
+	position:relative;
+	top:1px;
+}
 .smallimg{
-  width:50px;
-  height:50px;
+  width:80px;
+  height:80px;
   border-radius: 355px;
 }
 .smallimg2{
-  width:50px;
-  height:50px;
+  width:80px;
+  height:80px;
 
 }
 .bird1{
@@ -168,7 +186,7 @@ transition: all 0.8s;
 @keyframes flying2 {
   from{  left:0%;}
   to{
-      left:96%;
+      left:95%;
   }
 
 }
@@ -186,4 +204,19 @@ hr{
 }
 .copy{
   color: black;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+.longpara{
+  width:50%;
+}
+.footer-link{
+  padding: 50px;
+
 }
