@@ -179,7 +179,7 @@ transition: all 0.8s;
 @keyframes flying1 {
   from{  left:0%;}
   to{
-      left:95%;
+      left:95.7%;
   }
 
 }
@@ -192,6 +192,7 @@ transition: all 0.8s;
 }
 
 hr{
+  margin: 50px auto 50px auto;
   border-color: #1b262c;
   border-top-style: dotted;
   border-bottom-style: none;
@@ -209,9 +210,10 @@ hr{
 }
 .skill-row{
   width: 50%;
-  margin: 200px auto;
+  margin: 100px auto;
   text-align: left;
   line-height: 2;
+
 }
 .longpara{
   width:50%;
@@ -219,4 +221,8 @@ hr{
 .footer-link{
   padding: 50px;
 
+}
+.pfp{
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
